@@ -23,4 +23,12 @@ Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_t
 Data Model
 ![image](https://github.com/user-attachments/assets/3e708604-ebfe-479e-9fc4-8562692884b0)
 
+afte datamodelling using lucid chart.
+
+we need to convert drop off time and pickup time from object to date time using below command:
+
+df['tpep_pickup_datetime'] = pd.to_datetime(df['tpep_pickup_datetime'])
+df['tpep_dropoff_datetime'] = pd.to_datetime(df['tpep_dropoff_datetime'])
+
+
 
