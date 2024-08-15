@@ -56,7 +56,8 @@ After installing it , use command **mage start _projectName_**.
 It will give use a port 4 digit  port number, which we have give to the google console so that it give access to access this port on machine.
 
 After writing ip addres / port number, we are able to acces mage ai on browser, ss below,
-![image](https://github.com/user-attachments/assets/42bcb037-7719-4f6b-b35f-f520f3161ed5)
+![image](https://github.com/user-attachments/assets/8941915f-bf2e-4e5f-80bd-d22712ec2767)
+
 
 
 
