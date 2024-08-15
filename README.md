@@ -1,5 +1,39 @@
 # uberDataEng-Analytics
 
+Quick glance
+
+Dataset Used
+TLC Trip Record Data Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
+
+Here is the dataset used in the video - https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
+
+More info about dataset can be found here:
+
+Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
+Architecture
+![image](https://github.com/user-attachments/assets/fab22e91-fffa-42be-af74-e41bcad1f602)
+
+Technology Used
+Programming Language - Python
+
+Google Cloud Platform
+
+Google Storage
+
+Compute Instance
+
+BigQuery
+
+Looker Studio
+
+Modern Data Pipeine Tool - https://www.mage.ai/
+
+Step b step process
+
+
+
 Read about GCP and main component
 read about big query and looker
 mage is open data pipeline tool as airflow
@@ -57,6 +91,15 @@ It will give use a port 4 digit  port number, which we have give to the google c
 
 After writing ip addres / port number, we are able to acces mage ai on browser, ss below,
 ![image](https://github.com/user-attachments/assets/8941915f-bf2e-4e5f-80bd-d22712ec2767)
+
+On the mage , we have to get data from gcp drive link, then transform it with lot of code and lastlz load it on big querz.
+
+After loading it , open looker, a google powered  BI tool to create dashboard, where we have to link our big querz to get data and write custome code to show map data.
+we have to show trip distance and color and tzpe of distance so we put latitude and longitude in order ot get acurate pointer location, ss below.
+
+Sample dashboard screenshot from looker studio
+![image](https://github.com/user-attachments/assets/fbaab072-67d9-488f-80e5-d01e25aa7db9)
+
 
 
 
